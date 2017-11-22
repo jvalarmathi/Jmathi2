@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumTest3.ScrolupandDown">
+      <class name="SeleniumTest3.Elementvisible">
         <methods>
-          <include name="ScrollbarTest"/>
+          <include name="ElementVisible"/>
         </methods>
-      </class> <!-- SeleniumTest3.ScrolupandDown -->
+      </class> <!-- SeleniumTest3.Elementvisible -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

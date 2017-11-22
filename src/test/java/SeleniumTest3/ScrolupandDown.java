@@ -27,6 +27,7 @@ public class ScrolupandDown {
 		Thread.sleep(2000);
 		jse.executeScript("window.scrollTo(0,-document.body.scrollHeight);");
 		Thread.sleep(2000);
+		driver.close();
 	
 	}
 

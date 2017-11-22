@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite2" duration-ms="28298" started-at="2017-11-22T07:22:39Z" finished-at="2017-11-22T07:23:07Z">
+  <suite name="Default suite" duration-ms="6906" started-at="2017-11-22T16:01:49Z" finished-at="2017-11-22T16:01:56Z">
     <groups>
     </groups>
-    <test name="Sanity Test" duration-ms="28298" started-at="2017-11-22T07:22:39Z" finished-at="2017-11-22T07:23:07Z">
-      <class name="SeleniumTest3.WebAlert">
-        <test-method status="PASS" signature="WebalertTest()[pri:0, instance:SeleniumTest3.WebAlert@1794d431]" name="WebalertTest" duration-ms="8754" started-at="2017-11-22T12:52:39Z" finished-at="2017-11-22T12:52:47Z">
+    <test name="Default test" duration-ms="6906" started-at="2017-11-22T16:01:49Z" finished-at="2017-11-22T16:01:56Z">
+      <class name="SeleniumTest3.Elementvisible">
+        <test-method status="PASS" signature="ElementVisible()[pri:0, instance:SeleniumTest3.Elementvisible@7d9d1a19]" name="ElementVisible" duration-ms="6881" started-at="2017-11-22T21:31:49Z" finished-at="2017-11-22T21:31:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WebalertTest -->
-      </class> <!-- SeleniumTest3.WebAlert -->
-      <class name="SeleniumTest3.ScrolupandDown">
-        <test-method status="PASS" signature="ScrollbarTest()[pri:0, instance:SeleniumTest3.ScrolupandDown@53b32d7]" name="ScrollbarTest" duration-ms="18639" started-at="2017-11-22T12:52:48Z" finished-at="2017-11-22T12:53:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ScrollbarTest -->
-      </class> <!-- SeleniumTest3.ScrolupandDown -->
-      <class name="SeleniumTest3.Readexcelcountrows">
-        <test-method status="PASS" signature="ReadExcelTest()[pri:0, instance:SeleniumTest3.Readexcelcountrows@343f4d3d]" name="ReadExcelTest" duration-ms="870" started-at="2017-11-22T12:52:47Z" finished-at="2017-11-22T12:52:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReadExcelTest -->
-      </class> <!-- SeleniumTest3.Readexcelcountrows -->
-    </test> <!-- Sanity Test -->
-  </suite> <!-- TestSuite2 -->
+        </test-method> <!-- ElementVisible -->
+      </class> <!-- SeleniumTest3.Elementvisible -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -6,6 +6,9 @@
        <class name="SeleniumTest3.WebAlert"/>  
        <class name="SeleniumTest3.Readexcelcountrows"/> 
        <class name="SeleniumTest3.ScrolupandDown"/> 
+       <class name="SeleniumTest3.draganddrop"/> 
+       <class name="SeleniumTest3.Elementvisible"/> 
+       <class name="SeleniumTest3.Dynamicwebtablecount"/> 
           </classes>
    </test>  
 </suite> 
