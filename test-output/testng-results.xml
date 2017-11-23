@@ -1,82 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5530" started-at="2017-11-23T13:31:14Z" finished-at="2017-11-23T13:31:19Z">
+  <suite name="Default suite" duration-ms="12837" started-at="2017-11-23T17:32:14Z" finished-at="2017-11-23T17:32:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5530" started-at="2017-11-23T13:31:14Z" finished-at="2017-11-23T13:31:19Z">
-      <class name="SeleniumTest3.xpath">
-        <test-method status="FAIL" signature="xpathTest()[pri:0, instance:SeleniumTest3.xpath@7d9d1a19]" name="xpathTest" duration-ms="5488" started-at="2017-11-23T19:01:14Z" finished-at="2017-11-23T19:01:19Z">
-          <exception class="org.openqa.selenium.InvalidSelectorException">
-            <message>
-              <![CDATA[Unable to locate an element with the xpath expression .//*[contains(href(),'guru99.com')] because of the following error:
-TypeError: Unable to get property 'J' of undefined or null reference
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'IBM416-PC0GHZYW', ip: '9.195.42.57', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:14171/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
-Session ID: 926bd82d-7afd-4c28-a2e3-eff0373d178d
-*** Element info: {Using=xpath, value=.//*[contains(href(),'guru99.com')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: Unable to locate an element with the xpath expression .//*[contains(href(),'guru99.com')] because of the following error:
-TypeError: Unable to get property 'J' of undefined or null reference
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'IBM416-PC0GHZYW', ip: '9.195.42.57', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:14171/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
-Session ID: 926bd82d-7afd-4c28-a2e3-eff0373d178d
-*** Element info: {Using=xpath, value=.//*[contains(href(),'guru99.com')]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at SeleniumTest3.xpath.xpathTest(xpath.java:32)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+    <test name="Default test" duration-ms="12837" started-at="2017-11-23T17:32:14Z" finished-at="2017-11-23T17:32:27Z">
+      <class name="SeleniumTest3.TestNGandAssertTesting">
+        <test-method status="PASS" signature="Launchbrowser()[pri:0, instance:SeleniumTest3.TestNGandAssertTesting@204f30ec]" name="Launchbrowser" is-config="true" duration-ms="9" started-at="2017-11-23T23:02:14Z" finished-at="2017-11-23T23:02:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- xpathTest -->
-      </class> <!-- SeleniumTest3.xpath -->
+        </test-method> <!-- Launchbrowser -->
+        <test-method status="PASS" signature="Flights()[pri:1, instance:SeleniumTest3.TestNGandAssertTesting@204f30ec]" name="Flights" duration-ms="6053" started-at="2017-11-23T23:02:14Z" finished-at="2017-11-23T23:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flights -->
+        <test-method status="PASS" signature="HomeTitle()[pri:2, instance:SeleniumTest3.TestNGandAssertTesting@204f30ec]" name="HomeTitle" duration-ms="4139" started-at="2017-11-23T23:02:20Z" finished-at="2017-11-23T23:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeTitle -->
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:SeleniumTest3.TestNGandAssertTesting@204f30ec]" name="Closebrowser" is-config="true" duration-ms="2613" started-at="2017-11-23T23:02:24Z" finished-at="2017-11-23T23:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- SeleniumTest3.TestNGandAssertTesting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

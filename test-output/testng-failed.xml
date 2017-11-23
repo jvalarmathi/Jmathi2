@@ -3,11 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumTest3.xpath">
+      <class name="SeleniumTest3.TestNGandAssertTesting">
         <methods>
-          <include name="xpathTest"/>
+          <include name="HomeTitle"/>
+          <include name="GetPagetitle"/>
+          <include name="Launchbrowser"/>
+          <include name="Closebrowser"/>
+          <include name="Flights"/>
         </methods>
-      </class> <!-- SeleniumTest3.xpath -->
+      </class> <!-- SeleniumTest3.TestNGandAssertTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
