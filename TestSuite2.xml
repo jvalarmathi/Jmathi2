@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="TestSuite2" >
-   <test name="Sanity Test">
-    <classes>      
-       <class name="SeleniumTest3.WebAlert"/>  
-       <class name="SeleniumTest3.Readexcelcountrows"/> 
-       <class name="SeleniumTest3.ScrolupandDown"/> 
-       <class name="SeleniumTest3.draganddrop"/> 
-       <class name="SeleniumTest3.Elementvisible"/> 
-       <class name="SeleniumTest3.Dynamicwebtablecount"/> 
-          </classes>
-   </test>  
-</suite> 
+<suite name="TestSuite2" thread-count="3" >
+<parameter name="author" value="Guru99" />
+<parameter name="searchKey" value="UK" />
+<test name="testGuru">
+<parameter name="searchKey" value="UK" />
+<classes>
+<class name="SeleniumTest3.Parametrization">
+</class>
+</classes>
+</test>
+</suite>

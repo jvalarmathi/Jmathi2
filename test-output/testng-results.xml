@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12837" started-at="2017-11-23T17:32:14Z" finished-at="2017-11-23T17:32:27Z">
+  <suite name="Default suite" duration-ms="159319" started-at="2017-11-27T08:20:11Z" finished-at="2017-11-27T08:22:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12837" started-at="2017-11-23T17:32:14Z" finished-at="2017-11-23T17:32:27Z">
-      <class name="SeleniumTest3.TestNGandAssertTesting">
-        <test-method status="PASS" signature="Launchbrowser()[pri:0, instance:SeleniumTest3.TestNGandAssertTesting@204f30ec]" name="Launchbrowser" is-config="true" duration-ms="9" started-at="2017-11-23T23:02:14Z" finished-at="2017-11-23T23:02:14Z">
+    <test name="Default test" duration-ms="159319" started-at="2017-11-27T08:20:11Z" finished-at="2017-11-27T08:22:50Z">
+      <class name="SeleniumTest3.BrokenlinksTest2">
+        <test-method status="PASS" signature="brokenlinktest()[pri:0, instance:SeleniumTest3.BrokenlinksTest2@1794d431]" name="brokenlinktest" duration-ms="159296" started-at="2017-11-27T13:50:11Z" finished-at="2017-11-27T13:52:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Launchbrowser -->
-        <test-method status="PASS" signature="Flights()[pri:1, instance:SeleniumTest3.TestNGandAssertTesting@204f30ec]" name="Flights" duration-ms="6053" started-at="2017-11-23T23:02:14Z" finished-at="2017-11-23T23:02:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Flights -->
-        <test-method status="PASS" signature="HomeTitle()[pri:2, instance:SeleniumTest3.TestNGandAssertTesting@204f30ec]" name="HomeTitle" duration-ms="4139" started-at="2017-11-23T23:02:20Z" finished-at="2017-11-23T23:02:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomeTitle -->
-        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:SeleniumTest3.TestNGandAssertTesting@204f30ec]" name="Closebrowser" is-config="true" duration-ms="2613" started-at="2017-11-23T23:02:24Z" finished-at="2017-11-23T23:02:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Closebrowser -->
-      </class> <!-- SeleniumTest3.TestNGandAssertTesting -->
+        </test-method> <!-- brokenlinktest -->
+      </class> <!-- SeleniumTest3.BrokenlinksTest2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

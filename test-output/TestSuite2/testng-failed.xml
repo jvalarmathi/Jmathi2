@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite2]">
+  <parameter name="author" value="Guru99"/>
+  <parameter name="searchKey" value="India"/>
+  <test name="testGuru(failed)">
+    <parameter name="searchKey" value="UK"/>
+    <classes>
+      <class name="SeleniumTest3.Parametrization">
+        <methods>
+          <include name="parametrizationTest"/>
+        </methods>
+      </class> <!-- SeleniumTest3.Parametrization -->
+    </classes>
+  </test> <!-- testGuru(failed) -->
+</suite> <!-- Failed suite [TestSuite2] -->
